@@ -1,0 +1,40 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+
+.head{
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.head::after{
+    content: ' ';
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    width: 160%;
+    background-color: rgb(193, 190, 190);
+    left: -30%;
+}
+
+.subHead{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    position: relative;
+    padding: 10px;
+    
+}
+.msg a{
+    color: blue;
+    text-decoration: underline;
+}
+.msg{
+    font-size: medium;
+}

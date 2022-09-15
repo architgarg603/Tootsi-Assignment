@@ -1,0 +1,104 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    padding: 0 15px;
+}
+
+.wrapper div {
+    font-weight: bold;
+    padding: 10px;
+    word-break: break-all;
+    color: rgb(73, 72, 72);
+    height: 100px;
+    overflow: hidden;
+
+}
+
+.color, .qty {
+    width: 12%;
+    min-width: 100px;
+}
+.stock1, .stock2{
+    width: 14%;
+    min-width: 100px;
+
+}
+
+.image {
+    width: 5%;
+    min-width: 70px;
+}
+
+.price {
+    width: 17%;
+    color: rgba(44, 43, 43, 0.8) !important;
+}
+.qty{
+    color: rgba(44, 43, 43, 0.8) !important;
+
+}
+
+
+.name, .buy {
+    width: 20%;
+    min-width: 250px;
+
+}
+
+.buy {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+
+.name {
+    display: flex;
+    justify-content: space-between;
+    color: #33A0C6 !important;
+    text-decoration: underline;
+}
+
+.image img {
+    /* height: 100%; */
+    width: 100%;
+}
+
+.color{
+    color: #33A0C6 !important;
+}
+
+.in{
+    color: green !important;
+}
+
+.out{
+    color: rgb(225, 2, 2) !important;
+}
+
+.Qty{
+    border: 0;
+    padding: 0 15px;
+    outline: none;
+    color: #333333;
+    caret-color: #333333;
+    background-color: #F2F2F2;
+    box-shadow: inset 0.1rem 0.1rem #e8e8e8;
+    font-weight: bold;
+    font-family: sans-serif;
+    height: 35px;
+    width: 45px;
+}
+.buy div{
+    height: 35px;
+    width: 45px;
+    background-color: #333333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+.checkbox{
+    margin-top: 10px;
+}

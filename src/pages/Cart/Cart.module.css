@@ -1,0 +1,88 @@
+.wrapper{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    padding: 30px;
+}
+
+.left{
+    width: 80%;
+    padding-right: 30px;
+}
+
+.heading{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 2px solid gainsboro;
+    height: 50px;
+}
+.heading div{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    min-width: 200px;
+    word-break: break-all;
+    color: rgba(44, 43, 43, 0.8) !important;
+}
+.product{
+    width: 40% !important;
+}
+
+.right{
+    min-width: 350px;
+    width: 20%;
+}
+
+.calBox{
+    padding: 15px;
+    border: 2px solid gainsboro;
+}
+
+.head{
+    font-size: xx-large;
+    margin-bottom: 25px;
+}
+
+.subTotal,.total{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 20px 0 ;
+}
+.subTotal::after{
+    content: ' ';
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: gainsboro;
+    height: 1px;
+    position: absolute;
+}
+
+.subTotal div:first-child{
+    font-weight: bold;
+}
+.subTotal div:last-child,.total div:last-child{
+    color: #1E54AF;
+}
+
+
+.total div{
+    font-weight: bold;
+    font-size: large;
+}
+
+.btn{
+    width: 100%;
+    background-color: #1E54AF;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}

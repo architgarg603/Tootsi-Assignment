@@ -1,0 +1,56 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 130px;
+
+    border-bottom: 2px solid gainsboro;
+}
+
+
+.wrapper>div {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    min-width: 200px;
+    word-break: break-all;
+    color: rgba(44, 43, 43, 0.8) ;
+}
+
+.product {
+    width: 40% !important;
+    justify-content: flex-start !important;
+}
+
+.qty>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 75px;
+    height: 30px;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.qty>div>div:nth-child(2){
+    font-size: medium;
+    cursor: auto;
+}
+
+.product>img{
+ margin: 0 15px;
+ width: 70px;
+ 
+}
+
+.product{
+    align-items: center;
+}
+
+.subtotal{
+    color: #1E54AF !important;
+}
